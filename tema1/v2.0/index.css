@@ -15,7 +15,14 @@
     grid-column: span 4;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+}
+
+.header a{
+    align-items: right;
+    justify-content: right;
+    padding-left: 80px;
+    color: white;
 }
 
 .content {
