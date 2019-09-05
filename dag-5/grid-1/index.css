@@ -1,0 +1,34 @@
+
+
+/* Grid */
+#rutenett {
+    background-color: orange;
+    max-width: 800px;
+    /* "display: grid" gjør det til en grid */
+    display: grid;
+    grid-gap: 5px;
+    /* Lager 3 colonner */
+    /* grid-template-columns: 100px 200px 100px; */
+
+    /* Fraksjoner brukes til å angi størrelsesforhold mellom ruter */
+    grid-template-columns: 1fr 2fr 1fr;
+
+    /* Størrelse på radene */
+    /* grid-template-rows: 50px 200px 60px; */
+
+    /* Alle radene får nå en bestemt høyde */
+    grid-auto-rows: 80px;
+}
+
+
+
+/* Grid items */
+#rutenett div {
+    background-color: peachpuff;
+
+    /* Dette vil alltid midtstille innholdet */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Nå er det midtstilt */
+}

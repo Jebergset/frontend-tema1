@@ -1,0 +1,20 @@
+
+
+article {
+    background-color: red;
+    color: white;
+    width: 820px;
+}
+
+a {
+    display: block;
+    color: white;
+}
+
+article h1 {
+    padding: 16px;
+}
+
+img {
+    width: 100%;
+}

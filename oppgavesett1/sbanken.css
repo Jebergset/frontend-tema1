@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #eeeeee;
+    padding: 36px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+    background-color: white;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+}
+
+.benefits {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.benefits img {
+    width: 12%;
+}
+
+.benefits h1{
+    color: rgb(38, 35, 66);
+    display: block;
+    font-family: 'MaisonNeueHeadings', 'Roboto', 'Helvetica';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 20px;
+}
+
+.benefits h2{
+    color:rgb(80, 92, 110);
+    display: block;
+    font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}

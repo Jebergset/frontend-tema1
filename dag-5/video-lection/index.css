@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#full-screen {
+    background-color: peachpuff;
+    height: 100vh;
+}
+
+#video-layer {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+/* Dette er selve video-elementet */
+#video-layer video {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+#overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(100,200,100,0.3);
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+
+    /* Kontrollere tekstene */
+    color: white;
+    display: grid;
+
+    justify-content: center; 
+    align-content: center;
+}
+
+#overlay h1 {
+    padding: 16px;
+    text-align: center;
+}
+
+#overlay p {
+    /* justify-self: end; */
+    padding: 16px;
+    
+}

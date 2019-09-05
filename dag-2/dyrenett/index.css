@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header nav{
+    /* Gjør om menyen til et rutenett */
+    background-color: darkblue;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+    justify-content: start;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    /* 16 opp og ned - 32 høyre og venstre*/
+    padding: 16px 32px;
+}
+
+.active {
+    background-color: blueviolet;
+}

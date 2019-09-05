@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    
+}
+
+header nav {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+}
+
+header nav a.logo {
+    margin-right: auto;
+}
+
+main section {
+    min-height: 100vh;
+
+}
+
+#s-1 { background-color: royalblue; }
+#s-2 { background-color: rgb(62, 226, 62); }
+#s-3 { background-color: rgb(206, 48, 238); }
+#s-4 { background-color: rgb(238, 226, 62); }

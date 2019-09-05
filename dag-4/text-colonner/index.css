@@ -1,0 +1,64 @@
+/* Selecter top elemente (Som regel toppen på HTML */
+
+/* Med å bruke prosent så vil skrift størelsen bli større med chrome */
+/* Bruk "%" og "rem" på skrift for bruker vennlighet */
+:root {
+    font-size: 62.5%;
+    /* 16 / 10 */
+    /* Nå er font-size 10px */
+    /* Vanligvis er 100% = 16px */ 
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 3.2rem; 
+}
+
+section {
+    max-width: 120rem; /* 120x10 = 1200px */
+    margin: auto; /* Centrer */
+}
+
+.kolonner { 
+    column-count: 3; /* Created colonner */ 
+    column-gap: 3.2rem;
+    column-rule: 1px solid black; /* Linje til å skille kolonner */
+    text-align: justify; /* Fordeler texten så det blir rett i kantene */
+}
+
+.kolonner img {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 3.2rem;
+    font-size: 1.6rem; /* 16px */
+    /* 2 x 20px = 40px */
+    line-height: 1.5; /* En og en halv linje-avstand */
+}
+
+p::first-letter {
+    font-size: 4.8rem;
+    line-height: 1;
+    float: left;
+    padding-right: 1.4rem;
+
+}
+
+@media (max-width: 90rem) {
+    .kolonner {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 53rem) {
+    .kolonner {
+        column-count: 1;
+    }
+}

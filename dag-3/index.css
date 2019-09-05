@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: helvetica, sans-serif;
+}
+
+.fullscreen {
+    padding: 84px 16px; 
+    min-height: 50vh;
+}
+
+.highlights {
+    background-color: white;
+    max-width: 536px;
+    margin: 0 auto; /* 0 opp og ned, auto på sidene */
+    padding: 20px 32px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.highlights ul {
+    padding-top: 34px;
+    padding-bottom: 26px;
+    padding-left: 0;
+    border-top-color: rgb(217, 218, 220);
+    border-top-style: solid;
+    border-top-width: 1px;
+    /* Width, Style, Color */
+    border-bottom: 1px solid rgb(217, 218, 220);
+}
+
+.highlights ul li {
+    list-style-image: url(./images/check.svg);
+    line-height: 22px;
+    padding-bottom: 7px;
+    margin-left: 25px;
+}
+
+button {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    background-color: rgb(29, 185, 84);
+    color: rgb(255, 255, 255);
+    border-width: 0px;
+    border-radius: 500px;
+    padding: 17px 168px;
+}
+
+span {
+    font-size: 16px; 
+    font-weight: 400;   
+}
+
+h4 {
+    font-size: 32px;
+}
+
+.learn {
+    color: rgb(29, 185, 84);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    float: right;
+}
+
+.benefits {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 20px;
+    border-bottom: 1px solid rgb(217, 218, 220);
+}
+
+#playstation {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+h4 {
+    margin: 1px;
+}
+
+p {
+    color: rgb(145, 145, 145);
+    font-size: 12px;
+    height: 29px;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>ideogram-15</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ideogram-48" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="ideogram-15" stroke="#4E08BC" stroke-width="2">
+            <g id="tablet-mobile" transform="translate(2.000000, 2.000000)">
+                <path d="M28,32 L4,32 C1.8,32 0,30.2 0,28 L0,4 C0,1.8 1.8,0 4,0 L38,0 C40.2,0 42,1.8 42,4 L42,16" id="Shape"></path>
+                <polyline id="Shape" points="28 26 12 26 12 6 36 6 36 16"></polyline>
+                <path d="M42,44 L30,44 C28.9,44 28,43.1 28,42 L28,18 C28,16.9 28.9,16 30,16 L42,16 C43.1,16 44,16.9 44,18 L44,42 C44,43.1 43.1,44 42,44 Z" id="Shape"></path>
+                <path d="M6,14 L6,18" id="Shape"></path>
+                <path d="M28,22 L44,22" id="Shape"></path>
+                <path d="M28,36 L44,36" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

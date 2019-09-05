@@ -1,0 +1,36 @@
+
+
+.lista {
+    height: 90vh;
+    display: flex; /* 1 */
+    background-color: orange;
+
+    /* Endrer retningen på flex-boxene */
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-around;
+    justify-content: center; /* 2 */
+
+    align-items: stretch; /* default */
+    align-items: flex-end;
+    align-items: center; /* 3 */
+}
+
+
+/* Innhold på første nivå i en flexbok, kalles flex items */
+.lista div {
+    background-color: plum;
+    padding: 20px;
+    text-align: center;
+    
+    margin: 3px;
+}
+
+
+.f-4 {
+    align-self: flex-start;    
+}
+
+.bunn {
+    align-self: flex-end;
+}
