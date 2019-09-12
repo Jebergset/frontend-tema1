@@ -1,0 +1,51 @@
+footer {
+    background-color: orange;
+    height: 20rem;
+
+}
+
+.kolonner {
+   background-color:orange;
+   display: grid;
+   grid-template-columns: 40rem 40rem 40rem;
+   
+}
+
+.kolonner .kol-left{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: auto;
+    
+}
+
+.kolonner .kol-mid {
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: auto;
+}
+
+.kolonner .kol-right {
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: auto;
+    
+}
+
+.kolonner .kol-right a {
+    color: white;
+}
+
+.ja-button {
+    background-color: rgb(255, 242, 201);
+    color: rgb(255, 179, 0);
+    padding: 1.5rem 9rem;
+    margin: 1.4rem;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    cursor: pointer;
+}
