@@ -1,0 +1,66 @@
+:root {
+    font-size: 62.5%;
+}
+
+/* V3 Tema 1 */
+
+
+* {
+    margin: 0;
+}
+body {
+    margin: 0;
+}
+
+
+.main-fokus h1{
+    margin-left: 29rem;
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #FFB300;   
+}
+
+.fokus-grid {
+    width: 110rem;
+    justify-content: center;
+    justify-self: center;
+    margin: auto;
+}
+
+.fokus-innhold {
+    display: inline-block;
+    border: 3px solid blue;
+    line-height: 25px;
+    padding: 3rem;
+    width: 40rem;
+    margin: 3rem;
+}
+
+.container_image{
+    display: inline-block;
+    width: 8rem;
+    height: 10rem;
+}
+
+.fokus-text {
+    display: inline-block;
+    width: 50%;
+}
+
+.fokus-innhold h2{
+    color: #FFB300;    
+}
+
+.fokus-grid h1{
+    font-size: 2.3rem;
+}
+
+.fokus-grid h2{
+    font-size: 3rem;
+}
+
+.fokus-grid p{
+    font-size: 1.8rem;
+    width: 40rem;
+}

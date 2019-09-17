@@ -1,0 +1,77 @@
+
+.bli-medlem-box {
+    border: 15px solid orange;
+    background-color: orange;
+    width: 100rem;
+    height: 14rem;
+    margin: auto;
+    margin-top: 2rem;
+    display: block;   
+}
+
+.bli-medlem-box h1{
+    text-align: center;
+    font-size: 8rem;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+
+.container {
+    background: #fff;
+    width: 60rem;
+    height: 50rem;
+    border-radius: 0.3rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #CCC;
+    margin-top: 5rem;
+}
+
+.paragraph {
+    background: orange;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    border-radius: 0.3rem;
+    padding: 1.5rem 0 1.5rem 0;
+}
+.skriv-inn {
+    width: 23.5rem;
+    height: 3.5rem;
+    border-radius: 0.2rem;
+    border: none;
+    border: 1px solid #CCC;
+    margin-left: 20px;
+    padding-left: 0.5rem;
+    margin-top: 2rem;
+}
+
+.knapp {
+    margin-left: 2rem;
+    text-align: center;
+    justify-self: center;
+    width: 24rem;
+    height: 3rem;
+}
+
+input {
+    width: 30rem;
+    border-radius: 0.5rem;
+    height: 2rem;
+    
+}
+
+.bli-medlem-skjema h1{
+    color: orange;
+}
+
+.bli-medlem-skjema label{
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+
+.bli-medlem-skjema p{
+    font-size: 1.4rem;
+}

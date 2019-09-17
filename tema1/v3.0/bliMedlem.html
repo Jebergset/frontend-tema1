@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kronepartiet</title>
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="bliMedlem.css">
 </head>
 <body>
     <header>
@@ -14,7 +17,7 @@
         <nav>
             <ul>
                 <li><a href="index.html">Hjem</a></li>
-                <li><a href=#>Punkter</a></li>
+                <li><a href="index.html#fokus-slide">Vårt Fokus</a></li>
                 <li><a href="omOss.html">Om oss</a></li>
                 <li><a href="bliMedlem.html">Bli Medlem!</a></li>
             </ul>
@@ -22,44 +25,26 @@
     </header>
     <!-- MAIN -->
     <div class="bli-medlem-box">
-        <h1>BLI MEDLEM</h1>
+        <h1>BLI MEDLEM!</h1>
     </div>
 
-    <h1> Bli medlem ved å fylle inn disse boksene:</h1>
-    <container>
-        <form>
-
-            <label for="fname">Navn *</label>
-            <input type="text" id="fname" name="fname" placeholder="Fornavn">
-
-            <label for="ename">Etternavn</label>
-            <input type="text" id="ename" name="ename" placeholder="Etternavn">
-            <br>
-            <label for="epost">E-post *</label>
-            <input type="email" id="epost" name="epost" placeholder="Din e-post adresse">
-            <br>
-            <label for="fdato">Fødselsdato *</label>
-            <input type="date" id="fdato" name="fdato" placeholder="Fødselsdato">
-            <p>Skriv inn eller velg din fødselsdato</p>
-            <br>
-            <label for="telefon">Telefon *</label>
-            <input type="number" id="telefon" name="telefon">
-            <p>Ditt mobiltelefon nummer</p>
-            <br>
-            <label for="adresse">Adresse*</label>
-            <input type="text" id="adresse" name="adresse" placeholder="Skriv inn Gateadresse">
-            <p>Gateadresse</p>
-            <input type="number" id="postnummer" name="postnummer" placeholder="postnummer">
-            <p>Postnummer</p>
-            <input type="text" id="kommune" name="kommune" placeholder="">
-            <p>Kommune eller Poststed</p>
-            <input type="number" id="fylke" name="fylke" placeholder="">
-            <p>Fylke</p>
-            <input type="number" id="land" name="land" placeholder="">
-            <p>Land</p>
-            
+    
+    <div class="container">
+        <form class="bli-medlem-skjema">
+            <p class="paragraph"> Bli medlem ved å fylle inn her:</p>           
+            <input type="text" id="fname" name="fname" placeholder="Fornavn" class="skriv-inn">
+            <input type="text" id="lname" name="lname" placeholder="Etternavn" class="skriv-inn">  
+            <input type="email" id="epost" name="epost" placeholder="Din e-post adresse" class="skriv-inn">
+            <input type="date" id="fdato" name="fdato" placeholder="Fødselsdato" class="skriv-inn">
+            <input type="number" id="telefon" name="telefon" placeholder="Mobil nummer" class="skriv-inn">
+            <input type="text" id="adresse" name="adresse" placeholder="Skriv inn Gateadresse" class="skriv-inn">
+            <input type="number" id="postnummer" name="postnummer" placeholder="ex: 1234" class="skriv-inn">
+            <input type="text" id="kommune" name="kommune" placeholder="Kommune" class="skriv-inn">
+            <input type="text" id="fylke" name="fylke" placeholder="Fylke" class="skriv-inn">
+            <button type="submit" class="knapp">Send</button>
         </form>
-    </container>
+        
+    </div>
 
     <!-- MAIN END-->
     <footer>
@@ -75,6 +60,7 @@
                     <input type="text" placeholder="Navn">
                     <h2>E-post</h2>
                     <input type="text" placeholder="E-post">
+                    <br>
                     <button class="ja-button">Ja, Takk!</button>
                 </div>
                 <div class="kol-right">

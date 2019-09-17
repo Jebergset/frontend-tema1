@@ -1,14 +1,12 @@
 footer {
     background-color: orange;
-    height: 20rem;
-
+    height: 30rem;
 }
 
 .kolonner {
    background-color:orange;
    display: grid;
-   grid-template-columns: 40rem 40rem 40rem;
-   
+   grid-template-columns: 40rem auto 40rem;
 }
 
 .kolonner .kol-left{
@@ -16,23 +14,28 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     margin: auto;
-    
 }
 
 .kolonner .kol-mid {
     font-size: 1.4rem;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    margin: auto;
+    margin-top: 5rem;
+    justify-self: center;
+    align-items: center center;
+}
+
+.kolonner .kol-mid input {
+    width: 25rem;
 }
 
 .kolonner .kol-right {
     font-size: 1.4rem;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    margin: auto;
-    
+    margin: auto; 
 }
+
 
 .kolonner .kol-right a {
     color: white;
@@ -40,11 +43,10 @@ footer {
 
 .ja-button {
     background-color: rgb(255, 242, 201);
-    color: rgb(255, 179, 0);
+    color: rgb(128, 120, 104);
     padding: 1.5rem 9rem;
-    margin: 1.4rem;
-    text-align: center;
-    display: inline-block;
+    margin-top: 2.5rem;
+    width: 25.5rem;
     font-size: 1.6rem;
     font-weight: 600;
     cursor: pointer;

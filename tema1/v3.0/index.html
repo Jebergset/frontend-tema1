@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kronepartiet</title>
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./footer.css">
 </head>
 <body>
     <header>
@@ -14,7 +16,7 @@
         <nav>
             <ul>
                 <li><a href="index.html">Hjem</a></li>
-                <li><a href=#>Punkter</a></li>
+                <li><a href="#fokus-slide">Vårt Fokus</a></li>
                 <li><a href="omOss.html">Om oss</a></li>
                 <li><a href="bliMedlem.html">Bli Medlem!</a></li>
             </ul>
@@ -25,17 +27,18 @@
         <container class="front-top">
             
             <div class="boxed">
-                <p>La dine penger vokse på trær!</p>
+                <p>La dine penger vokse som trær!</p>
             </div>
             <img src="img/money.jpg">
         </container>
 
-        <container class="lokal-lag">
+        <div class="lokal-lag">
             <img src="img/coins.jpg">
             <h1>Kronepartiet der du bor</h1>
             <h2>Her finner du ditt lokallag. Velg fylke (og kommune) og klikk 'Ditt sted'</h2>
+        <form action="https://www.google.no/search">
             <select name="fylker">
-                <option value="Velg fylke">Velg Fylke</option>
+                <option>Velg Fylke</option>
                 <option value="Agder">Agder</option>
                 <option value="Hordaland">Hordaland</option>
                 <option value="Innlandet">Innlandet</option>
@@ -51,34 +54,42 @@
                 <option value="Viken">Viken</option>
                 <option value="Øvrige">Øvrige</option>
             </select>
-        </container>
+            <button type="submit" class="knapp">Finn kommune</button>
+        </form>
+        </div>
 
-        <h1>Vårt fokus:</h1>
-        <container class="fokus-grid">
-            <div class="fokus-innhold">
-                <h2>Tekst</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur consequuntur accusantium voluptas quisquam voluptatum ullam sed dicta doloribus id incidunt! Natus reiciendis alias, culpa placeat dignissimos perferendis ab facere non.</p>
-            </div>
-            <div class="fokus-innhold">
-                <h2>Tekst</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur consequuntur accusantium voluptas quisquam voluptatum ullam sed dicta doloribus id incidunt! Natus reiciendis alias, culpa placeat dignissimos perferendis ab facere non.</p>
-            </div>
-            <div class="fokus-innhold">
-                <h2>Tekst</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur consequuntur accusantium voluptas quisquam voluptatum ullam sed dicta doloribus id incidunt! Natus reiciendis alias, culpa placeat dignissimos perferendis ab facere non.</p>
-            </div>
-            <div class="fokus-innhold">
-                <h2>Tekst</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur consequuntur accusantium voluptas quisquam voluptatum ullam sed dicta doloribus id incidunt! Natus reiciendis alias, culpa placeat dignissimos perferendis ab facere non.</p>
-            </div>
-        </container>
+        <div class="main-fokus">
+                <div class="fokus-grid" id="fokus-slide">
+                    <h1>Vårt fokus:</h1>
+                    <div class="fokus-innhold">
+                        <img class="container_image innhold_oppe" src="../v3.0/img/icon-coins.png">
+                        <h2 class="fokus-text">Krone</h2>
+                        <p class="fokus-text">Vi synes det er best å ha penger i kroner og seddler. Vi vil ha tilbake den tiden der vi hadde kroner og seddler enten hjemme eller i banken. Med oss i regjering så vil vi bevege oss bort ifra digitale banker og til den mer tradisjonelle måten å ha penger på.  </p>
+                    </div>
+                    <div class="fokus-innhold innhold_oppe">
+                        <img class="container_image" src="../v3.0/img/icon-piggy-bank.png">
+                        <h2 class="fokus-text">Spar</h2>
+                        <p class="fokus-text">Å spare sine hardt arbeidene kroner er veldig viktig. Derfor vil vi lage en stor pengebinge  der alle sine kroner vil være trygge. Spesielt mot B-gjengen. </p>
+                    </div>
+                    <div class="fokus-innhold innhold_nede">
+                        <img class="container_image" src="../v3.0/img/Icon-dollar-sign.png">
+                        <h2 class="fokus-text">Nok til $</h2>
+                        <p class="fokus-text">Dollar tegnet ser mye bedre ut enn kr. Med oss i regjering så vil vi gå fra norske kronen "kr" til amerikanske dollar "$".</p>
+                    </div>
+                    <div class="fokus-innhold innhold_nede">
+                        <img class="container_image" src="../v3.0/img/icon-money-check.png">
+                        <h2 class="fokus-text">Skrues Master Card</h2>
+                        <p class="fokus-text">Skrues Master Card vil bli det eneste master card kortet som er lov til å bruke i Norge. Det er ingen begrensninger på hvor mye du kan bruke. <span><br>200% rente iløpet av 30 dager.</span></p>
+                    </div>
+                </div>
+                </div>
 
     </main>
 
     <footer>
         <div class="kolonner">
             <div class="kol-left">
-                <p>Kontakt oss</p>
+                <p>Kontakt oss:</p>
                 <p>256 22 123</p>
                 <p>post@pengebingen.no</p>
             </div>
@@ -88,6 +99,7 @@
                 <input type="text" placeholder="Navn">
                 <h2>E-post</h2>
                 <input type="text" placeholder="E-post">
+                <br>
                 <button class="ja-button">Ja, Takk!</button>
             </div>
             <div class="kol-right">
